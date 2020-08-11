@@ -67,23 +67,4 @@ public class LotteryController {
         log.log(Level.INFO, "check and update status of ticket by id : " + id);
         return  lotteryService.getTicketStatusById(id);
     }
-
-    @GetMapping("/search")
-    public List<LotteryTicket> searchCheckedTickets() {
-        log.log(Level.INFO, "Search tickets which are checked");
-        return  lotteryService.searchCheckedTickets();
-    }
-
-    // TODO : below method to be deleted
-    @DeleteMapping("/ticket")
-    public void deleteAllTickets()
-    {
-        lotteryService.deleteAllTickets();
-    }
-
-    @DeleteMapping("/ticket/{id}")
-    public void deleteTicketById(@PathVariable UUID id)
-    {
-        lotteryService.deleteTicketById(id);
-    }
 }

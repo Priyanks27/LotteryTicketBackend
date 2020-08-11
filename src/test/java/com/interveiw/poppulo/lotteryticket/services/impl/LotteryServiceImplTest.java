@@ -5,12 +5,10 @@ import com.interveiw.poppulo.lotteryticket.data.input.LotteryTicketInput;
 import com.interveiw.poppulo.lotteryticket.data.model.Line;
 import com.interveiw.poppulo.lotteryticket.data.model.LotteryTicket;
 import com.interveiw.poppulo.lotteryticket.services.LotteryService;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.cassandra.core.mapping.UserDefinedType;
 
 import java.util.List;
 import java.util.UUID;
