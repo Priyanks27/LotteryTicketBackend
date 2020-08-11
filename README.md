@@ -15,6 +15,7 @@ Pre-requisites:
 2) Cassandra version : apache-cassandra-3.11.4 was installed on the development environment. Python 2.7 is installed for cassandra to function. https://cassandra.apache.org/download/
 3) start cassandra by running cassandra.bat from the ~\cassandra\bin location.
 4) Alternatively, execute following instructions to setup cassandra for this project:
+
   a. docker pull cassandra latest
   b. docker run --name cassandra -p 9042:9042 -d cassandra:3.0
   c.docker ps
