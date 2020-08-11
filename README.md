@@ -6,7 +6,7 @@ Assumptions:
 1) The number of lines in a tickket N, is constant across the system, there is a provision to change it in the application.properties file : app.Number_of_lines_on_ticket
 2) Digits in each line can be updated from using application properties value of : app.digits_in_a_line
 3) The values of the digits can be updated using application properties value of : app.Values
-4) New classes need to be added for adding rules, though priority of existing rules and their 
+4) New classes need to be added for adding rules, though priority of existing rules can be configured in the applciation.properties file.
 5) The requests coming for the tickets to be created and load should be within 100 requests
 
 Pre-requisites:
