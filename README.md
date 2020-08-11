@@ -14,7 +14,8 @@ Pre-requisites:
 1) Java and JDK must be setup and JAVA_HOME must be added in the path. Project can be explored and debugging can be done using IntelliJ or eclispe. Open the pom.xml as a project in IntelliJ. Download Java: https://java.com/en/download/ , https://www.oracle.com/java/technologies/javase-downloads.html
 2) Cassandra version : apache-cassandra-3.11.4 was installed on the development environment. Python 2.7 is installed for cassandra to function. https://cassandra.apache.org/download/
 3) start cassandra by running cassandra.bat from the ~\cassandra\bin location.
-4) Alternatively, execute following instructions to setup cassandra for this project:
+
+Alternatively, execute following instructions to setup cassandra for this project:
 
   1) docker pull cassandra latest
   2) docker run --name cassandra -p 9042:9042 -d cassandra:3.0
