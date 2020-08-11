@@ -16,12 +16,12 @@ Pre-requisites:
 3) start cassandra by running cassandra.bat from the ~\cassandra\bin location.
 4) Alternatively, execute following instructions to setup cassandra for this project:
 
-  a. docker pull cassandra latest
-  b. docker run --name cassandra -p 9042:9042 -d cassandra:3.0
-  c.docker ps
-  d. docker exec -it cassandra bash
-  e. cqlsh
-  f. create KEYSPACE test WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+  a) docker pull cassandra latest
+  b) docker run --name cassandra -p 9042:9042 -d cassandra:3.0
+  c) docker ps
+  d) docker exec -it cassandra bash
+  e) cqlsh
+  f) create KEYSPACE test WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
 
 
 Go to the base directory and Use following instructions to launch the project
